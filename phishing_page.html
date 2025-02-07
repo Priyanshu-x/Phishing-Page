@@ -1,0 +1,172 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   SBI Online Login
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-white shadow">
+   <div class="container mx-auto flex justify-between items-center py-2 px-4">
+    <div class="flex items-center">
+     <img alt="SBI Logo" class="h-10" height="50" src="https://storage.googleapis.com/a1aa/image/wTBSnz8-dtRBsJ3S10LBO-or45hD5pVbNMBzYZeJRa4.jpg" width="50"/>
+     <span class="text-blue-600 text-2xl font-bold ml-2">
+      SBI ONLINE
+     </span>
+    </div>
+    <nav class="flex space-x-4">
+     <a class="text-blue-600" href="#">
+      Home
+     </a>
+     <a class="text-blue-600" href="#">
+      Products &amp; Services
+     </a>
+     <a class="text-blue-600" href="#">
+      How Do I (Help)
+     </a>
+     <a class="text-blue-600" href="#">
+      Manage Debit Card E-Mandate
+     </a>
+     <a class="text-blue-600" href="#">
+      Contact Us
+     </a>
+    </nav>
+    <div class="flex items-center space-x-2">
+     <a class="text-blue-600" href="#">
+      SBI Home Loan
+     </a>
+     <a class="text-blue-600" href="#">
+      About OnlineSBI
+     </a>
+     <a class="text-blue-600" href="#">
+      Forms
+     </a>
+     <a class="text-blue-600" href="#">
+      Net Banking Branches
+     </a>
+     <div class="relative">
+      <button class="bg-green-600 text-white px-2 py-1 rounded">
+       Language
+      </button>
+      <div class="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg hidden">
+       <a class="block px-4 py-2 text-gray-800 hover:bg-gray-200" href="#">
+        English
+       </a>
+       <a class="block px-4 py-2 text-gray-800 hover:bg-gray-200" href="#">
+        Hindi
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main class="container mx-auto mt-4 px-4">
+   <div class="bg-white shadow-md rounded p-6 flex">
+    <div class="w-1/2">
+     <h2 class="text-xl font-bold mb-4">
+      Login to OnlineSBI
+     </h2>
+     <p class="text-red-600 mb-4">
+      (CARE: Username and password are case sensitive.)
+     </p>
+     <form>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="username">
+        Username*
+       </label>
+       <input class="w-full border rounded px-3 py-2" id="username" type="text"/>
+       <div class="flex justify-between text-sm mt-1">
+        <a class="text-blue-600" href="#">
+         New User ? Register here/Activate
+        </a>
+        <a class="text-blue-600" href="#">
+         Forgot Username / Login Password
+        </a>
+       </div>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="password">
+        Password*
+       </label>
+       <input class="w-full border rounded px-3 py-2" id="password" type="password"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="captcha">
+        Enter the text as shown in the image *
+       </label>
+       <input class="w-full border rounded px-3 py-2" id="captcha" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700">
+        Select one of the Captcha options *
+       </label>
+       <div class="flex items-center space-x-4">
+        <label class="flex items-center">
+         <input class="mr-2" name="captcha" type="radio"/>
+         <span>
+          Image Captcha
+         </span>
+        </label>
+        <label class="flex items-center">
+         <input class="mr-2" name="captcha" type="radio"/>
+         <span>
+          Audio Captcha
+         </span>
+        </label>
+       </div>
+      </div>
+      <div class="mb-4">
+       <img alt="Captcha Image" class="border" height="50" src="https://storage.googleapis.com/a1aa/image/mdsjeqxjC1W6quIaRJ1uE8h8gscC9Rm9gD8mWOn-HbQ.jpg" width="100"/>
+      </div>
+      <div class="flex items-center mb-4">
+       <input class="mr-2" id="virtual-keyboard" type="checkbox"/>
+       <label class="text-gray-700" for="virtual-keyboard">
+        Enable Virtual Keyboard
+       </label>
+      </div>
+      <div class="flex space-x-4">
+       <button class="bg-blue-600 text-white px-4 py-2 rounded" type="submit">
+        Login
+       </button>
+       <button class="bg-gray-600 text-white px-4 py-2 rounded" type="reset">
+        Reset
+       </button>
+      </div>
+     </form>
+     <p class="text-gray-600 mt-4">
+      For better security use the Online Virtual Keyboard to login.
+      <a class="text-blue-600" href="#">
+       More...
+      </a>
+     </p>
+    </div>
+    <div class="w-1/2 pl-6">
+     <img alt="Be Vigilant. Be Safe." class="rounded mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/b2jtpz03vrd83KDxh0L3EheDsACOwO3j8Wt7Sh7x2lY.jpg" width="400"/>
+     <div class="bg-blue-900 text-white p-4 rounded">
+      <p class="mb-2">
+       Dear Customer,
+      </p>
+      <ul class="list-disc list-inside">
+       <li>
+        OTP based login &amp; Mandatory login password change after 180 days introduced for added security.
+       </li>
+       <li>
+        Please do not share OTP/password/user information with anyone. Bank never asks for such information.
+       </li>
+       <li>
+        For better control &amp; security of your account, you can Lock or Unlock your INB access through link "Lock &amp; Unlock User" available at bottom of this Page.
+       </li>
+       <li>
+        Mandatory Profile password change after 365 days introduced for added security.
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
